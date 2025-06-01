@@ -164,7 +164,7 @@ import torch
 
 # Instantiate a pretrained EnCodec model
 model = EncodecModel.encodec_model_24khz()
-# The number of codebooks used will be determined bythe bandwidth selected.
+# The number of codebooks used will be determined by the bandwidth selected.
 # E.g. for a bandwidth of 6kbps, `n_q = 8` codebooks are used.
 # Supported bandwidths are 1.5kbps (n_q = 2), 3 kbps (n_q = 4), 6 kbps (n_q = 8) and 12 kbps (n_q =16) and 24kbps (n_q=32).
 # For the 48 kHz model, only 3, 6, 12, and 24 kbps are supported. The number
